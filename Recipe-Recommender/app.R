@@ -1,5 +1,6 @@
 ##############   CSDA1040 - PROJECT 1 - RECOMMENDER APP  ##############
 ############## APP INTERFACE BUILT BY LEESANN SUTHERLAND ##############
+############## Recommender model built by Leesann Sutherland, Stan Taov and Maryan Mahamed
 
 library(shiny)
 library(shinyjs)
@@ -94,8 +95,7 @@ ui <- fluidPage(
                           ###  Page Footer  ###
                           wellPanel(
                             tags$footer("This Shiny App is part of an assignment for our Advanced Methods in Data Analysis course at York University (2020)"),
-                            tags$footer("Contributors: Leesann Sutherland, Stan Taov and Maryan Mahamed"), 
-                            tags$footer("Hosted by: shinyapps.io by RStudio")
+                            tags$footer("Contributors: Leesann Sutherland, Stan Taov and Maryan Mahamed") 
                             )
                           ),
                           
@@ -115,8 +115,8 @@ ui <- fluidPage(
                           hr(),
                           wellPanel(
                           tags$footer("This Shiny App is part of an assignment for our Advanced Methods in Data Analysis course at York University (2020)"),
-                          tags$footer("Contributors: Leesann Sutherland, Stan Taov and Maryan Mahamed"), 
-                          tags$footer("Hosted by: shinyapps.io by RStudio"))
+                          tags$footer("Contributors: Leesann Sutherland, Stan Taov and Maryan Mahamed") 
+                          )
                           )
     )
 )
